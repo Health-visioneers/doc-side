@@ -1,0 +1,79 @@
+.right-container{
+    padding: 20px 30px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+    width: 350px;
+    color: #213547;
+    border-radius: 8px;
+    box-shadow: 3px 4px 20px gray;
+}
+.right-container h3{
+    color: #0D46C1;
+}
+
+.profile{
+    width: 90%;
+    text-align: center;
+    border-bottom: rgb(234, 230, 230) 1px solid ;
+}
+
+.appointment-limit{
+    width: 90%;
+    text-align: start;
+    border-bottom: rgb(234, 230, 230) 1px solid ;
+}
+.appointment-limit-range{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    font-weight: 600;
+}
+.appointment-limit-range input{
+    accent-color: #0D46C1;
+}
+
+.appointment-types-grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 130px;
+    text-align: start;
+    place-content: center;
+    place-items: center;
+    border-bottom: rgb(234, 230, 230) 1px solid ;
+
+}
+
+.notifications{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.notification-items{
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 8px;
+    line-height: 5px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.notification-items{
+    color: #0D46C1;
+    font-size: 12px;
+    width: 80px;
+    border: 1.5px solid;
+}
+.notification-items:hover{
+    background-color: #0D46C1;
+    color: white;
+    border: none;
+}
+
+

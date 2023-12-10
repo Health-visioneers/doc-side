@@ -1,0 +1,17 @@
+.middle-container{
+    width: 100%;
+    color: #213547;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro h2{
+    color:#0D46c1 ;
+}
+
+.appointment-containers{
+    display: flex;
+
+}
